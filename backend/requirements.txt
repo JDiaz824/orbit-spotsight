@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+websockets
+google-genai
+sqlalchemy
+psycopg2-binary
+python-dotenv
+httpx
