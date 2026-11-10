@@ -12,9 +12,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'SPOTSight — Orbit Robot Fleet Management',
-  description:
-    'Real-time SPOT robot mission dashboard and design system for plant operators. Native Orbit add-on styling.',
+  title: 'SPOTsight — Orbit Robot Fleet Management',
+  description: 'Real-time SPOT robot mission dashboard and design system for plant operators. Native Orbit add-on styling.',
+  verification: {
+    google: '<meta name="google-site-verification" content="rwKxEg5nfJ4YYij-5MtyO7zmdZ1CGz79DzbAwWnII8Y" />',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
