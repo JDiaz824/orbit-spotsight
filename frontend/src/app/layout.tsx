@@ -13,15 +13,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'SPOTsight — Orbit Robot Fleet Management',
-  description: 'Real-time SPOT robot mission dashboard and design system for plant operators. Native Orbit add-on styling.',
-  verification: {
-    google: '<meta name="google-site-verification" content="rwKxEg5nfJ4YYij-5MtyO7zmdZ1CGz79DzbAwWnII8Y" />',
-  },
+  description: 'Real-time SPOT robot mission dashboard and design system for plant operators. Native Orbit add-on styling.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`h-full ${inter.variable}`}>
+      <head>
+        <meta name="google-site-verification" content="YOUR_LONG_VERIFICATION_STRING_HERE" />
+      </head>
       <body className="h-full bg-orbit-bg text-text-primary font-sans antialiased overflow-hidden">
         <AppShell>{children}</AppShell>
       </body>
