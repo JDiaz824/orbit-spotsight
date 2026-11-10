@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`h-full ${inter.variable}`}>
       <head>
-        <meta name="google-site-verification" content="YOUR_LONG_VERIFICATION_STRING_HERE" />
+        <meta name="google-site-verification" content="rwKxEg5nfJ4YYij-5MtyO7zmdZ1CGz79DzbAwWnII8Y" />
       </head>
       <body className="h-full bg-orbit-bg text-text-primary font-sans antialiased overflow-hidden">
         <AppShell>{children}</AppShell>
